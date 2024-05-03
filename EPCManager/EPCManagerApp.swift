@@ -1,17 +1,12 @@
-//
-//  EPCManagerApp.swift
-//  EPCManager
-//
-//  Created by Bertrand Bloc'h on 29/04/2024.
-//
-
 import SwiftUI
 
 @main
 struct EPCManagerApp: App {
+    // MARK: - View
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreenView(projectStore: mockStore)
         }
     }
 }
