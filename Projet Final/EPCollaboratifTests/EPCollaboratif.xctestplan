@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "9253BECF-0042-4DC6-BB95-C8242E9478C6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:EPCollaboratif.xcodeproj",
+      "identifier" : "2FFEDA852BDF96C200319E4A",
+      "name" : "EPCollaboratif"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:EPCollaboratif.xcodeproj",
+        "identifier" : "2FFEDA952BDF96C300319E4A",
+        "name" : "EPCollaboratifTests"
+      }
+    }
+  ],
+  "version" : 1
+}

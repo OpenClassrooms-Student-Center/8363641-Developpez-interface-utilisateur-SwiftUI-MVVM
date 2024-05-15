@@ -15,10 +15,10 @@
 		2F6FF4A22BE0D3560059A805 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6FF4A12BE0D3560059A805 /* MockData.swift */; };
 		2FEDD2212BE4D8D2005B7D5F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDD2202BE4D8D2005B7D5F /* Task.swift */; };
 		2FEDD2232BE4D939005B7D5F /* ProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDD2222BE4D939005B7D5F /* ProjectStore.swift */; };
-		2FFEDA8A2BDF96C200319E4A /* EPCManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEDA892BDF96C200319E4A /* EPCManagerApp.swift */; };
+		2FFEDA8A2BDF96C200319E4A /* EPCollaboratifApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEDA892BDF96C200319E4A /* EPCollaboratifApp.swift */; };
 		2FFEDA8E2BDF96C300319E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFEDA8D2BDF96C300319E4A /* Assets.xcassets */; };
 		2FFEDA912BDF96C300319E4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFEDA902BDF96C300319E4A /* Preview Assets.xcassets */; };
-		2FFEDA9B2BDF96C300319E4A /* EPCManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEDA9A2BDF96C300319E4A /* EPCManagerTests.swift */; };
+		2FFEDA9B2BDF96C300319E4A /* EPCollaboratifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEDA9A2BDF96C300319E4A /* EPCollaboratifTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +40,13 @@
 		2F6FF4A12BE0D3560059A805 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		2FEDD2202BE4D8D2005B7D5F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		2FEDD2222BE4D939005B7D5F /* ProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectStore.swift; sourceTree = "<group>"; };
-		2FFEDA862BDF96C200319E4A /* EPCManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPCManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FFEDA892BDF96C200319E4A /* EPCManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCManagerApp.swift; sourceTree = "<group>"; };
+		2FFEDA862BDF96C200319E4A /* EPCollaboratif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPCollaboratif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFEDA892BDF96C200319E4A /* EPCollaboratifApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCollaboratifApp.swift; sourceTree = "<group>"; };
 		2FFEDA8D2BDF96C300319E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FFEDA902BDF96C300319E4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2FFEDA962BDF96C300319E4A /* EPCManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPCManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FFEDA9A2BDF96C300319E4A /* EPCManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCManagerTests.swift; sourceTree = "<group>"; };
+		2FFEDA962BDF96C300319E4A /* EPCollaboratifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPCollaboratifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFEDA9A2BDF96C300319E4A /* EPCollaboratifTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCollaboratifTests.swift; sourceTree = "<group>"; };
+		2FFF11DC2BF4A82900E7C6C5 /* EPCollaboratif.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EPCollaboratif.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +70,8 @@
 		2FFEDA7D2BDF96C200319E4A = {
 			isa = PBXGroup;
 			children = (
-				2FFEDA882BDF96C200319E4A /* EPCManager */,
-				2FFEDA992BDF96C300319E4A /* EPCManagerTests */,
+				2FFEDA882BDF96C200319E4A /* EPCollaboratif */,
+				2FFEDA992BDF96C300319E4A /* EPCollaboratifTests */,
 				2FFEDA872BDF96C200319E4A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,17 +79,17 @@
 		2FFEDA872BDF96C200319E4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FFEDA862BDF96C200319E4A /* EPCManager.app */,
-				2FFEDA962BDF96C300319E4A /* EPCManagerTests.xctest */,
+				2FFEDA862BDF96C200319E4A /* EPCollaboratif.app */,
+				2FFEDA962BDF96C300319E4A /* EPCollaboratifTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2FFEDA882BDF96C200319E4A /* EPCManager */ = {
+		2FFEDA882BDF96C200319E4A /* EPCollaboratif */ = {
 			isa = PBXGroup;
 			children = (
 				2F6FF4A12BE0D3560059A805 /* MockData.swift */,
-				2FFEDA892BDF96C200319E4A /* EPCManagerApp.swift */,
+				2FFEDA892BDF96C200319E4A /* EPCollaboratifApp.swift */,
 				2F1242F22BDFA3CB0091FDA1 /* HomeScreenView.swift */,
 				2F1243002BDFC5BC0091FDA1 /* AddProjectView.swift */,
 				2F1242FA2BDFC2E70091FDA1 /* ProjectDetailsView.swift */,
@@ -99,7 +100,7 @@
 				2FFEDA8D2BDF96C300319E4A /* Assets.xcassets */,
 				2FFEDA8F2BDF96C300319E4A /* Preview Content */,
 			);
-			path = EPCManager;
+			path = EPCollaboratif;
 			sourceTree = "<group>";
 		};
 		2FFEDA8F2BDF96C300319E4A /* Preview Content */ = {
@@ -110,20 +111,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2FFEDA992BDF96C300319E4A /* EPCManagerTests */ = {
+		2FFEDA992BDF96C300319E4A /* EPCollaboratifTests */ = {
 			isa = PBXGroup;
 			children = (
-				2FFEDA9A2BDF96C300319E4A /* EPCManagerTests.swift */,
+				2FFF11DC2BF4A82900E7C6C5 /* EPCollaboratif.xctestplan */,
+				2FFEDA9A2BDF96C300319E4A /* EPCollaboratifTests.swift */,
 			);
-			path = EPCManagerTests;
+			path = EPCollaboratifTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FFEDA852BDF96C200319E4A /* EPCManager */ = {
+		2FFEDA852BDF96C200319E4A /* EPCollaboratif */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FFEDAAA2BDF96C300319E4A /* Build configuration list for PBXNativeTarget "EPCManager" */;
+			buildConfigurationList = 2FFEDAAA2BDF96C300319E4A /* Build configuration list for PBXNativeTarget "EPCollaboratif" */;
 			buildPhases = (
 				2FFEDA822BDF96C200319E4A /* Sources */,
 				2FFEDA832BDF96C200319E4A /* Frameworks */,
@@ -133,14 +135,14 @@
 			);
 			dependencies = (
 			);
-			name = EPCManager;
+			name = EPCollaboratif;
 			productName = EPCManager;
-			productReference = 2FFEDA862BDF96C200319E4A /* EPCManager.app */;
+			productReference = 2FFEDA862BDF96C200319E4A /* EPCollaboratif.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FFEDA952BDF96C300319E4A /* EPCManagerTests */ = {
+		2FFEDA952BDF96C300319E4A /* EPCollaboratifTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FFEDAAD2BDF96C300319E4A /* Build configuration list for PBXNativeTarget "EPCManagerTests" */;
+			buildConfigurationList = 2FFEDAAD2BDF96C300319E4A /* Build configuration list for PBXNativeTarget "EPCollaboratifTests" */;
 			buildPhases = (
 				2FFEDA922BDF96C300319E4A /* Sources */,
 				2FFEDA932BDF96C300319E4A /* Frameworks */,
@@ -151,9 +153,9 @@
 			dependencies = (
 				2FFEDA982BDF96C300319E4A /* PBXTargetDependency */,
 			);
-			name = EPCManagerTests;
+			name = EPCollaboratifTests;
 			productName = EPCManagerTests;
-			productReference = 2FFEDA962BDF96C300319E4A /* EPCManagerTests.xctest */;
+			productReference = 2FFEDA962BDF96C300319E4A /* EPCollaboratifTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FFEDA812BDF96C200319E4A /* Build configuration list for PBXProject "EPCManager" */;
+			buildConfigurationList = 2FFEDA812BDF96C200319E4A /* Build configuration list for PBXProject "EPCollaboratif" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FFEDA852BDF96C200319E4A /* EPCManager */,
-				2FFEDA952BDF96C300319E4A /* EPCManagerTests */,
+				2FFEDA852BDF96C200319E4A /* EPCollaboratif */,
+				2FFEDA952BDF96C300319E4A /* EPCollaboratifTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,7 +224,7 @@
 				2F1242F32BDFA3CB0091FDA1 /* HomeScreenView.swift in Sources */,
 				2F6FF4A02BE0CFC40059A805 /* AddTaskView.swift in Sources */,
 				2F1243012BDFC5BC0091FDA1 /* AddProjectView.swift in Sources */,
-				2FFEDA8A2BDF96C200319E4A /* EPCManagerApp.swift in Sources */,
+				2FFEDA8A2BDF96C200319E4A /* EPCollaboratifApp.swift in Sources */,
 				2F1242FB2BDFC2E70091FDA1 /* ProjectDetailsView.swift in Sources */,
 				2F6FF4A22BE0D3560059A805 /* MockData.swift in Sources */,
 				2FEDD2232BE4D939005B7D5F /* ProjectStore.swift in Sources */,
@@ -234,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FFEDA9B2BDF96C300319E4A /* EPCManagerTests.swift in Sources */,
+				2FFEDA9B2BDF96C300319E4A /* EPCollaboratifTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +245,7 @@
 /* Begin PBXTargetDependency section */
 		2FFEDA982BDF96C300319E4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FFEDA852BDF96C200319E4A /* EPCManager */;
+			target = 2FFEDA852BDF96C200319E4A /* EPCollaboratif */;
 			targetProxy = 2FFEDA972BDF96C300319E4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -301,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -358,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -375,7 +377,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EPCManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EPCollaboratif/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -383,12 +385,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCollaboratif;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -403,7 +406,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EPCManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EPCollaboratif/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -411,12 +414,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCollaboratif;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -432,14 +436,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCollaboratifTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EPCManager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCollaboratif.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EPCollaboratif";
 			};
 			name = Debug;
 		};
@@ -451,21 +455,21 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCollaboratifTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EPCManager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCollaboratif.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EPCollaboratif";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FFEDA812BDF96C200319E4A /* Build configuration list for PBXProject "EPCManager" */ = {
+		2FFEDA812BDF96C200319E4A /* Build configuration list for PBXProject "EPCollaboratif" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FFEDAA82BDF96C300319E4A /* Debug */,
@@ -474,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FFEDAAA2BDF96C300319E4A /* Build configuration list for PBXNativeTarget "EPCManager" */ = {
+		2FFEDAAA2BDF96C300319E4A /* Build configuration list for PBXNativeTarget "EPCollaboratif" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FFEDAAB2BDF96C300319E4A /* Debug */,
@@ -483,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FFEDAAD2BDF96C300319E4A /* Build configuration list for PBXNativeTarget "EPCManagerTests" */ = {
+		2FFEDAAD2BDF96C300319E4A /* Build configuration list for PBXNativeTarget "EPCollaboratifTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FFEDAAE2BDF96C300319E4A /* Debug */,

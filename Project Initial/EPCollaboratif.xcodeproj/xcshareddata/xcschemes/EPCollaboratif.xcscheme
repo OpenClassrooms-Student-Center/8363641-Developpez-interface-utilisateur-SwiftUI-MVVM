@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1530"
+   LastUpgradeVersion = "1500"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES"
-      buildArchitectures = "Automatic">
+      buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -16,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2FFEDA852BDF96C200319E4A"
-               BuildableName = "EPCManager.app"
-               BlueprintName = "EPCManager"
-               ReferencedContainer = "container:EPCManager.xcodeproj">
+               BuildableName = "EPCollaboratif.app"
+               BlueprintName = "EPCollaboratif"
+               ReferencedContainer = "container:EPCollaboratif.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,32 +26,13 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FFEDA952BDF96C300319E4A"
-               BuildableName = "EPCManagerTests.xctest"
-               BlueprintName = "EPCManagerTests"
-               ReferencedContainer = "container:EPCManager.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FFEDA9F2BDF96C300319E4A"
-               BuildableName = "EPCManagerUITests.xctest"
-               BlueprintName = "EPCManagerUITests"
-               ReferencedContainer = "container:EPCManager.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:EPCollaboratifTests/EPCollaboratif.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -69,9 +49,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2FFEDA852BDF96C200319E4A"
-            BuildableName = "EPCManager.app"
-            BlueprintName = "EPCManager"
-            ReferencedContainer = "container:EPCManager.xcodeproj">
+            BuildableName = "EPCollaboratif.app"
+            BlueprintName = "EPCollaboratif"
+            ReferencedContainer = "container:EPCollaboratif.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2FFEDA852BDF96C200319E4A"
-            BuildableName = "EPCManager.app"
-            BlueprintName = "EPCManager"
-            ReferencedContainer = "container:EPCManager.xcodeproj">
+            BuildableName = "EPCollaboratif.app"
+            BlueprintName = "EPCollaboratif"
+            ReferencedContainer = "container:EPCollaboratif.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

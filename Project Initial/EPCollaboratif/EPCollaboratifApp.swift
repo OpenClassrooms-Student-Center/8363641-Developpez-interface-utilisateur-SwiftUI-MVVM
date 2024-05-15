@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct EPCManagerApp: App {
+struct EPCollaboratifApp: App {
     // MARK: - View
 
     var body: some Scene {
