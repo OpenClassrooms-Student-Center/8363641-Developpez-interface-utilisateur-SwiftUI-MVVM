@@ -1,35 +1,32 @@
-# EPCManager
+# EPCollaboratif
 
-EPCManager is a comprehensive SwiftUI app designed to facilitate efficient project and task management. It allows users to create, edit, and track progress on various projects and their associated tasks.
+EPCollaboratif est une application complète SwiftUI conçue pour faciliter la gestion efficace des projets et des tâches. Elle permet aux utilisateurs de créer, modifier et suivre la progression de divers projets et des tâches associées.
 
-## Features
-- **Project Management**: Users can add, delete, and view projects with detailed descriptions and timelines.
-- **Task Management**: Each project can contain multiple tasks that users can add, delete, and mark as completed.
-- **Progress Tracking**: The app dynamically tracks and displays the progress of each project based on completed tasks.
+## Fonctionnalités
+- **Gestion de Projet**: Les utilisateurs peuvent ajouter, supprimer et visualiser des projets avec des descriptions détaillées et des calendriers.
+- **Gestion des Tâches**: Chaque projet peut contenir plusieurs tâches que les utilisateurs peuvent ajouter, supprimer et marquer comme complétées.
+- **Suivi de Progression**: L'application suit et affiche dynamiquement la progression de chaque projet en fonction des tâches complétées.
 
 ## Installation
-To run EPCManager, clone the repo, and open EPCManager.xcodeproj in Xcode. Ensure you have the latest version of Xcode installed to handle SwiftUI efficiently.
+Pour exécuter EPCollaboratif, clonez le dépôt, et ouvrez EPCollaboratif.xcodeproj dans Xcode. Assurez-vous d'avoir la dernière version de Xcode installée pour gérer efficacement SwiftUI.
 
 ```bash
 git clone https://github.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM
-cd EPCManager
-open EPCManager.xcodeproj
+cd EPCollaboratif
+open EPCollaboratif.xcodeproj
+
 ```
 
 ## Usage
-- **Home Screen**: Start at the Home screen where all projects are listed. You can add a new project using the "+" button on the navigation bar.
-- **Project Details**: Tap on any project to view its details, including tasks and overall progress.
-- **Add Tasks**: Within the Project Details view, add tasks to projects by tapping the "+" icon in the navigation bar.
+- **Home Screen**: Commencez par l'écran d'accueil où tous les projets sont listés. Vous pouvez ajouter un nouveau projet en utilisant le bouton "+" sur la barre de navigation.
+- **Project Details**: Appuyez sur un projet pour voir ses détails, y compris les tâches et la progression globale.
+- **Add Tasks**: Dans la vue des Détails du Projet, ajoutez des tâches aux projets en appuyant sur l'icône "+" dans la barre de navigation.
 
 ## Components
-- **HomeScreenView**: Manages the display of all projects and includes functionality to add new projects.
-- **ProjectDetailsView**: Displays details of a selected project, lists tasks, and tracks progress.
-- **AddProjectView**: Provides a form to input new project details.
-- **AddTaskView**: Provides a form to add tasks to the selected project.
-- **ProjectStore**: A model to handle the storage of projects.
-- **Project**: Model representing a project, contains details like name, description, and tasks.
-- **Task**: Model representing a task within a project.
-
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+- **HomeScreenView**: Gère l'affichage de tous les projets et inclut la fonctionnalité pour ajouter de nouveaux projets.
+- **ProjectDetailsView**: Affiche les détails d'un projet sélectionné, liste les tâches et suit la progression.
+- **AddProjectView**: Fournit un formulaire pour saisir les détails d'un nouveau projet.
+- **AddTaskView**: Fournit un formulaire pour ajouter des tâches au projet sélectionné.
+- **ProjectStore**: Un modèle pour gérer le stockage des projets.
+- **Project**: Modèle représentant un projet, contient des détails comme le nom, la description et les tâches.
+- **Task**: Modèle représentant une tâche au sein d'un projet.
