@@ -25,6 +25,6 @@ class Task: Identifiable, ObservableObject, Equatable {
     }
 
     static func == (lhs: Task, rhs: Task) -> Bool {
-        return lhs.id == rhs.id
+        lhs.id == rhs.id
     }
 }

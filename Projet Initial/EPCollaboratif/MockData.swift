@@ -3,43 +3,43 @@ import Foundation
 let mockData = [
     Project(
         id: 1,
-        name: "Project Redesign",
-        description: "Complete overhaul of client framework.",
+        name: "Redesign du Projet",
+        description: "Refonte complète du cadre client.",
         startDate: "2023-01-10",
         endDate: "2023-07-15",
         tasks: [
             Task(
                 id: 1,
-                title: "Kickoff Meeting",
-                description: "Present the project plan and timeline to clients and gather initial feedback.",
+                title: "Réunion de lancement",
+                description: "Présenter le plan de projet et le calendrier aux clients et recueillir les premiers retours.",
                 dueDate: "2023-01-15",
                 isCompleted: true
             ),
             Task(
                 id: 2,
-                title: "UI/UX Prototypes",
-                description: "Develop and review user interface and user experience prototypes with stakeholders.",
+                title: "Prototypes UI/UX",
+                description: "Développer et examiner les prototypes d'interface utilisateur et d'expérience utilisateur avec les parties prenantes.",
                 dueDate: "2023-02-28",
                 isCompleted: false
             ),
             Task(
                 id: 3,
-                title: "Development Phase 1",
-                description: "Implement core functionalities with initial UI integrations.",
+                title: "Phase de développement 1",
+                description: "Mettre en œuvre les fonctionnalités principales avec les premières intégrations UI.",
                 dueDate: "2023-04-15",
                 isCompleted: false
             ),
             Task(
                 id: 4,
-                title: "Testing & Feedback",
-                description: "Conduct first round of user testing and incorporate feedback into the development.",
+                title: "Tests et retours",
+                description: "Réaliser le premier tour de tests utilisateurs et intégrer les retours dans le développement.",
                 dueDate: "2023-05-10",
                 isCompleted: false
             ),
             Task(
                 id: 5,
-                title: "Final Review",
-                description: "Final review with stakeholders and prepare for deployment.",
+                title: "Revue finale",
+                description: "Revue finale avec les parties prenantes et préparation au déploiement.",
                 dueDate: "2023-07-05",
                 isCompleted: false
             ),
@@ -47,36 +47,36 @@ let mockData = [
     ),
     Project(
         id: 2,
-        name: "New Product Launch",
-        description: "Launch new product line in Q2.",
+        name: "Lancement de nouveau produit",
+        description: "Lancer la nouvelle gamme de produits au deuxième trimestre.",
         startDate: "2023-02-01",
         endDate: "2023-06-30",
         tasks: [
             Task(
                 id: 1,
-                title: "Product Strategy Meeting",
-                description: "Outline product vision, key features, and market strategy.",
+                title: "Réunion de stratégie produit",
+                description: "Définir la vision du produit, les caractéristiques clés et la stratégie de marché.",
                 dueDate: "2023-02-15",
                 isCompleted: true
             ),
             Task(
                 id: 2,
-                title: "Market Research",
-                description: "Conduct detailed market research to identify potential customer base and preferences.",
+                title: "Étude de marché",
+                description: "Réaliser une étude de marché détaillée pour identifier la clientèle potentielle et les préférences.",
                 dueDate: "2023-03-10",
                 isCompleted: false
             ),
             Task(
                 id: 3,
-                title: "Prototype Development",
-                description: "Develop a working prototype for early testing and feedback gathering.",
+                title: "Développement de prototype",
+                description: "Développer un prototype fonctionnel pour les premiers tests et la collecte de retours.",
                 dueDate: "2023-04-20",
                 isCompleted: false
             ),
             Task(
                 id: 4,
-                title: "Launch Prep and Marketing",
-                description: "Prepare for launch with final product adjustments and marketing campaigns.",
+                title: "Préparation au lancement et marketing",
+                description: "Préparer le lancement avec les derniers ajustements de produit et les campagnes marketing.",
                 dueDate: "2023-06-10",
                 isCompleted: false
             ),
@@ -84,36 +84,36 @@ let mockData = [
     ),
     Project(
         id: 3,
-        name: "System Upgrade",
-        description: "Upgrade system to support new services.",
+        name: "Mise à niveau du système",
+        description: "Mettre à niveau le système pour prendre en charge les nouveaux services.",
         startDate: "2023-03-01",
         endDate: "2023-08-30",
         tasks: [
             Task(
                 id: 1,
-                title: "Initial System Review",
-                description: "Assess current system capabilities and define the scope for the upgrade.",
+                title: "Revue initiale du système",
+                description: "Évaluer les capacités actuelles du système et définir la portée de la mise à niveau.",
                 dueDate: "2023-03-15",
                 isCompleted: true
             ),
             Task(
                 id: 2,
-                title: "Hardware Upgrades",
-                description: "Upgrade physical server hardware to meet new software requirements.",
+                title: "Mises à niveau matérielles",
+                description: "Mettre à niveau le matériel serveur physique pour répondre aux nouvelles exigences logicielles.",
                 dueDate: "2023-04-05",
                 isCompleted: false
             ),
             Task(
                 id: 3,
-                title: "Software Updates",
-                description: "Update system software, including all critical security patches.",
+                title: "Mises à jour logicielles",
+                description: "Mettre à jour le logiciel système, y compris tous les correctifs de sécurité critiques.",
                 dueDate: "2023-05-25",
                 isCompleted: false
             ),
             Task(
                 id: 4,
-                title: "Final Testing & Deployment",
-                description: "Perform final testing rounds and deploy the system to production.",
+                title: "Tests finaux et déploiement",
+                description: "Effectuer les derniers tours de tests et déployer le système en production.",
                 dueDate: "2023-08-20",
                 isCompleted: false
             ),

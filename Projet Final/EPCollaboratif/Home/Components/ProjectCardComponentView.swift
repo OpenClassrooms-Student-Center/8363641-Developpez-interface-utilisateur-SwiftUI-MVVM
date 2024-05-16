@@ -20,7 +20,7 @@ struct ProjectCardComponentView: View {
                     ProgressView(value: project.progress, total: 1.0)
                         .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                         .scaleEffect(x: 1, y: 2, anchor: .center)
-                    Text("\(Int(project.progress * 100))% Complete")
+                    Text("\(Int(project.progress * 100))% Complété")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }

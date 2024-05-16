@@ -18,22 +18,22 @@ struct AddTaskView: View {
     var body: some View {
         NavigationView {
             Form {
-                Section(header: Text("Task Details")) {
-                    TextField("Title", text: $title)
+                Section(header: Text("Détails d'une tâche")) {
+                    TextField("Titre", text: $title)
                     TextField("Description", text: $description)
-                    DatePicker("Due Date", selection: $dueDate, displayedComponents: .date)
-                    Toggle("Completed", isOn: $isCompleted)
+                    DatePicker("Date de fin", selection: $dueDate, displayedComponents: .date)
+                    Toggle("Complétée", isOn: $isCompleted)
                 }
 
-                Button("Add Task") {
+                Button("Ajouter la tâche") {
                     let newTask = Task(id: project.tasks.count + 1, title: title, description: description, dueDate: dueDate.formatted(), isCompleted: isCompleted)
                     project.tasks.append(newTask)
                     presentationMode.wrappedValue.dismiss()
                 }
                 .disabled(title.isEmpty || description.isEmpty)
             }
-            .navigationBarTitle("New Task", displayMode: .inline)
-            .navigationBarItems(trailing: Button("Cancel") {
+            .navigationBarTitle("Nouvelle Tâche", displayMode: .inline)
+            .navigationBarItems(trailing: Button("Annuler") {
                 presentationMode.wrappedValue.dismiss()
             })
         }

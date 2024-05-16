@@ -16,14 +16,14 @@ class AddProjectViewModel: ObservableObject {
     @Published var startDate = Date()
     @Published var endDate = Date()
 
-    let projectInfoText = "Project Info"
-    let nameText = "Name"
+    let projectInfoText = "Informations sur le projet"
+    let nameText = "Nom"
     let descriptionText = "Description"
-    let startDateText = "Start Date"
-    let endDateText = "End Date"
-    let saveProjectText = "Save Project"
-    let addProjectText = "Add Project"
-    let cancelText = "Cancel"
+    let startDateText = "Date de début"
+    let endDateText = "Date de fin"
+    let saveProjectText = "Enregistrer le projet"
+    let addProjectText = "Ajouter un projet"
+    let cancelText = "Annuler"
 
     var isSaveDisabled: Bool {
         name.isEmpty || description.isEmpty

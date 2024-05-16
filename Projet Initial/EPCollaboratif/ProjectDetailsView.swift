@@ -34,14 +34,14 @@ struct ProjectDetailsView: View {
                     .scaleEffect(x: 1, y: 2, anchor: .center)
                     .padding()
 
-                Text("\(Int(project.progress * 100))% Complete")
+                Text("\(Int(project.progress * 100))% Complété")
                     .font(.caption)
                     .foregroundColor(.secondary)
                     .padding(.bottom, 20)
 
                 Divider()
 
-                Text("Tasks")
+                Text("Tâches")
                     .font(.headline)
                     .padding(.bottom, 5)
 
@@ -57,7 +57,7 @@ struct ProjectDetailsView: View {
                 Spacer()
             }
         }
-        .navigationBarTitle(Text("Project Details"), displayMode: .inline)
+        .navigationBarTitle(Text("Détails du projet"), displayMode: .inline)
         .navigationBarItems(trailing: Button(action: {
             showingTaskForm = true
         }) {

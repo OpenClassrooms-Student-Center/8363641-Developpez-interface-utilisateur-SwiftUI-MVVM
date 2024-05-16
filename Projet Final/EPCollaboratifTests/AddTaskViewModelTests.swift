@@ -24,43 +24,43 @@ class AddTaskViewModelTests: XCTestCase {
     // Test initial state of the save button
     func testGivenInitialState_WhenInitialized_ThenSaveIsDisabled() {
         let isSaveDisabled = viewModel.isSaveDisabled
-        XCTAssertTrue(isSaveDisabled, "Save should be disabled when title and description are both empty.")
+        XCTAssertTrue(isSaveDisabled, "L'enregistrement devrait être désactivé lorsque le titre et la description sont tous les deux vides.")
     }
 
     // Test enabling the save button by providing valid input
     func testGivenValidInput_WhenInputsAreProvided_ThenSaveIsEnabled() {
-        viewModel.title = "New Task"
-        viewModel.description = "Task Description"
+        viewModel.title = "Nouvelle Tâche"
+        viewModel.description = "Description de la tâche"
         let isSaveDisabled = viewModel.isSaveDisabled
-        XCTAssertFalse(isSaveDisabled, "Save should be enabled when both title and description are provided.")
+        XCTAssertFalse(isSaveDisabled, "L'enregistrement devrait être activé lorsque le titre et la description sont fournis.")
     }
 
     // Test the add task functionality
     func testGivenTaskDetails_WhenAddingTask_ThenTaskIsSaved() {
-        viewModel.title = "Finish Testing"
-        viewModel.description = "Complete all unit tests."
-        viewModel.dueDate = Date() // Use current date for simplicity
+        viewModel.title = "Terminer les tests"
+        viewModel.description = "Compléter tous les tests unitaires."
+        viewModel.dueDate = Date() // Utiliser la date actuelle pour simplifier
         viewModel.isCompleted = false
 
         viewModel.addTask()
 
-        XCTAssertTrue(onSaveTaskCalled, "onSavedTask should be called when adding the task.")
-        XCTAssertEqual(savedTask?.title, "Finish Testing", "The task title should match.")
-        XCTAssertEqual(savedTask?.description, "Complete all unit tests.", "The task description should match.")
-        XCTAssertEqual(savedTask?.isCompleted, false, "The task completion status should match.")
+        XCTAssertTrue(onSaveTaskCalled, "onSavedTask devrait être appelé lors de l'ajout de la tâche.")
+        XCTAssertEqual(savedTask?.title, "Terminer les tests", "Le titre de la tâche devrait correspondre.")
+        XCTAssertEqual(savedTask?.description, "Compléter tous les tests unitaires.", "La description de la tâche devrait correspondre.")
+        XCTAssertEqual(savedTask?.isCompleted, false, "Le statut de complétion de la tâche devrait correspondre.")
     }
 
     // Test the effect of empty title or description on save button
     func testGivenEmptyTitleOrDescription_WhenInputChanged_ThenSaveIsConditionallyDisabled() {
-        viewModel.title = "Valid Title"
+        viewModel.title = "Titre Valide"
         viewModel.description = ""
 
-        XCTAssertTrue(viewModel.isSaveDisabled, "Save should be disabled if the description is empty.")
+        XCTAssertTrue(viewModel.isSaveDisabled, "L'enregistrement devrait être désactivé si la description est vide.")
 
-        viewModel.description = "Valid Description"
-        XCTAssertFalse(viewModel.isSaveDisabled, "Save should be enabled if both title and description are valid.")
+        viewModel.description = "Description Valide"
+        XCTAssertFalse(viewModel.isSaveDisabled, "L'enregistrement devrait être activé si le titre et la description sont valides.")
 
         viewModel.title = ""
-        XCTAssertTrue(viewModel.isSaveDisabled, "Save should be disabled if the title is empty.")
+        XCTAssertTrue(viewModel.isSaveDisabled, "L'enregistrement devrait être désactivé si le titre est vide.")
     }
 }

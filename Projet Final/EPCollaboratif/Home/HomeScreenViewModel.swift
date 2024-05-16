@@ -16,8 +16,8 @@ class HomeScreenViewModel: ObservableObject {
     @Published var searchText: String = ""
     @Published var showAddProjectView: Bool = false
 
-    let titleText = "Welcome to EPC Manager"
-    let homeText = "Home"
+    let titleText = "EPCollaboratif"
+    let homeText = "Accueil"
 
     var filteredProjects: [Project] {
         if searchText.isEmpty {

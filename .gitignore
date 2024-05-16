@@ -26,3 +26,4 @@ Projects/.module-interfaces/
 
 ## Dev tool
 *.dev-version
+*.swift-version

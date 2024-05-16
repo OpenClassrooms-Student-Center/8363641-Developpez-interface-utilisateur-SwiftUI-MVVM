@@ -16,14 +16,14 @@ class AddTaskViewModel: ObservableObject {
     @Published var dueDate = Date()
     @Published var isCompleted: Bool = false
 
-    let taskDetailsText = "Task Details"
-    let titleText = "Title"
+    let taskDetailsText = "Détails de la tâche"
+    let titleText = "Titre"
     let descriptionText = "Description"
-    let dueDateText = "Due Date"
-    let completedText = "Completed"
-    let addTaskText = "Add Task"
-    let cancelText = "Cancel"
-    let newTaskText = "New Task"
+    let dueDateText = "Date d'échéance"
+    let completedText = "Terminé"
+    let addTaskText = "Ajouter une tâche"
+    let cancelText = "Annuler"
+    let newTaskText = "Nouvelle tâche"
 
     var isSaveDisabled: Bool {
         title.isEmpty || description.isEmpty

@@ -50,6 +50,6 @@ class Project: ObservableObject, Equatable {
     private var cancellables = Set<AnyCancellable>()
 
     static func == (lhs: Project, rhs: Project) -> Bool {
-        return lhs.id == rhs.id
+        lhs.id == rhs.id
     }
 }

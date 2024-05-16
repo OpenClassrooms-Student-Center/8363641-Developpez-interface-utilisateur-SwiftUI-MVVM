@@ -57,7 +57,7 @@ struct ProjectDetailsView: View {
                 Spacer()
             }
         }
-        .navigationBarTitle(Text("Project Details"), displayMode: .inline)
+        .navigationBarTitle(Text("Détails du projet"), displayMode: .inline)
         .navigationBarItems(trailing: Button(action: {
             showingTaskForm = true
         }) {

@@ -24,37 +24,37 @@ class AddProjectViewModelTests: XCTestCase {
     // Test to check the initial state of isSaveDisabled
     func testGivenInitialState_WhenInitialized_ThenSaveIsDisabled() {
         let isSaveDisabled = viewModel.isSaveDisabled
-        XCTAssertTrue(isSaveDisabled, "Save should be disabled when both name and description are empty.")
+        XCTAssertTrue(isSaveDisabled, "L'enregistrement devrait être désactivé lorsque le nom et la description sont vides.")
     }
 
     // Test enabling the save button by providing valid input
     func testGivenValidInput_WhenInputsAreProvided_ThenSaveIsEnabled() {
-        viewModel.name = "New Project"
-        viewModel.description = "Project Description"
+        viewModel.name = "Nouveau Projet"
+        viewModel.description = "Description du projet"
         let isSaveDisabled = viewModel.isSaveDisabled
-        XCTAssertFalse(isSaveDisabled, "Save should be enabled when both name and description are provided.")
+        XCTAssertFalse(isSaveDisabled, "L'enregistrement devrait être activé lorsque le nom et la description sont fournis.")
     }
 
     // Test save project functionality
     func testGivenNewProjectDetails_WhenSaveProject_ThenProjectIsSaved() {
-        viewModel.name = "Test Project"
-        viewModel.description = "Test Description"
+        viewModel.name = "Projet Test"
+        viewModel.description = "Description de Test"
         viewModel.saveProject()
-        XCTAssertTrue(onSaveProjectCalled, "onSavedProject should be called when saving the project.")
-        XCTAssertEqual(savedProject?.name, "Test Project", "The saved project name should match the view model name.")
-        XCTAssertEqual(savedProject?.description, "Test Description", "The saved project description should match the view model description.")
+        XCTAssertTrue(onSaveProjectCalled, "onSavedProject devrait être appelé lors de l'enregistrement du projet.")
+        XCTAssertEqual(savedProject?.name, "Projet Test", "Le nom du projet enregistré devrait correspondre au nom du view model.")
+        XCTAssertEqual(savedProject?.description, "Description de Test", "La description du projet enregistré devrait correspondre à la description du view model.")
     }
 
     // Test the effect of empty name or description on save button
     func testGivenEmptyNameOrDescription_WhenInputChanged_ThenSaveIsConditionallyDisabled() {
-        viewModel.name = "Test Project"
+        viewModel.name = "Projet Test"
         viewModel.description = ""
-        XCTAssertTrue(viewModel.isSaveDisabled, "Save should be disabled if the description is empty.")
+        XCTAssertTrue(viewModel.isSaveDisabled, "L'enregistrement devrait être désactivé si la description est vide.")
 
-        viewModel.description = "Test Description"
-        XCTAssertFalse(viewModel.isSaveDisabled, "Save should be enabled if both name and description are valid.")
+        viewModel.description = "Description de Test"
+        XCTAssertFalse(viewModel.isSaveDisabled, "L'enregistrement devrait être activé si le nom et la description sont valides.")
 
         viewModel.name = ""
-        XCTAssertTrue(viewModel.isSaveDisabled, "Save should be disabled if the name is empty.")
+        XCTAssertTrue(viewModel.isSaveDisabled, "L'enregistrement devrait être désactivé si le nom est vide.")
     }
 }

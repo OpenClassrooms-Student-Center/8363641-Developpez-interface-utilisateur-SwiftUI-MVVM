@@ -23,7 +23,7 @@ struct HomeScreenView: View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading) {
-                    Text("Welcome to EPC Manager")
+                    Text("EPCollaboratif")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .padding([.top, .leading], 15)
@@ -43,7 +43,7 @@ struct HomeScreenView: View {
                     }
                 }
             }
-            .navigationBarTitle("Home", displayMode: .inline)
+            .navigationBarTitle("Accueil", displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {
                 showAddProjectView = true
             }) {
@@ -80,7 +80,7 @@ struct ProjectCardComponentView: View {
                     ProgressView(value: project.progress, total: 1.0)
                         .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                         .scaleEffect(x: 1, y: 2, anchor: .center)
-                    Text("\(Int(project.progress * 100))% Complete")
+                    Text("\(Int(project.progress * 100))% Complété")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -108,7 +108,7 @@ struct SearchBarComponentView: View {
 
     var body: some View {
         HStack {
-            TextField("Search projects...", text: $searchText)
+            TextField("Rechercher un projet...", text: $searchText)
                 .padding(7)
                 .padding(.horizontal, 25)
                 .background(Color(.systemGray6))

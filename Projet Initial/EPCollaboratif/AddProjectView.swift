@@ -18,22 +18,22 @@ struct AddProjectView: View {
     var body: some View {
         NavigationView {
             Form {
-                Section(header: Text("Project Info")) {
-                    TextField("Name", text: $name)
+                Section(header: Text("Infos du projet")) {
+                    TextField("Nom", text: $name)
                     TextField("Description", text: $description)
-                    DatePicker("Start Date", selection: $startDate, displayedComponents: .date)
-                    DatePicker("End Date", selection: $endDate, displayedComponents: .date)
+                    DatePicker("Date de démarrage", selection: $startDate, displayedComponents: .date)
+                    DatePicker("Date de fin", selection: $endDate, displayedComponents: .date)
                 }
 
-                Button("Save Project") {
+                Button("Créer le projet") {
                     let newProject = Project(id: projectStore.projects.count + 1, name: name, description: description, startDate: "", endDate: "", tasks: [])
                     projectStore.projects.append(newProject)
                     presentationMode.wrappedValue.dismiss()
                 }
                 .disabled(name.isEmpty || description.isEmpty)
             }
-            .navigationBarTitle("Add Project", displayMode: .inline)
-            .navigationBarItems(trailing: Button("Cancel") {
+            .navigationBarTitle("Nouveau Projet", displayMode: .inline)
+            .navigationBarItems(trailing: Button("Annuler") {
                 presentationMode.wrappedValue.dismiss()
             })
         }
