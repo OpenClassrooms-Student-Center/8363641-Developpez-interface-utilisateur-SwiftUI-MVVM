@@ -9,7 +9,8 @@ EPCollaboratif est une application complète SwiftUI conçue pour faciliter la g
 
 | Accueil | Ajout d'un projet |  Détails d'un projet |  Ajout d'une tâche   |
 | -------- | -------- | -------- | --- |
-|   ![Screenshot 2024-05-21 at 15.40.58](https://github.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM/blob/main/Screenshots/Screenshot%202024-05-21%20at%2015.40.58.png)|   ![Screenshot 2024-05-21 at 15.41.08](https://github.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM/blob/main/Screenshots/Screenshot%202024-05-21%20at%2015.41.08.png)|  ![Screenshot 2024-05-21 at 15.41.02](https://github.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM/blob/main/Screenshots/Screenshot%202024-05-21%20at%2015.41.02.png)| ![Screenshot 2024-05-21 at 15.41.15](https://github.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM/blob/main/Screenshots/Screenshot%202024-05-21%20at%2015.41.15.png)|
+| <img src="https://github.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM/blob/main/Screenshots/Screenshot%202024-05-21%20at%2015.40.58.png" width="200"/> | <img src="https://raw.githubusercontent.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM/main/Screenshots/Screenshot%202024-05-29%20at%2021.51.56.png" width="200"/> | <img src="https://github.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM/blob/main/Screenshots/Screenshot%202024-05-21%20at%2015.41.02.png" width="200"/> | <img src="https://raw.githubusercontent.com/OpenClassrooms-Student-Center/8363641-Developpez-interface-utilisateur-SwiftUI-MVVM/main/Screenshots/Screenshot%202024-05-29%20at%2021.52.03.png" width="200"/> |
+
 
 
 ## Installation
