@@ -11,6 +11,7 @@ struct EPCCollaboratifApp: App {
                     projects: mockData
                 )
             )
+            .environment(\.locale, Locale(identifier: "fr"))
         }
     }
 }

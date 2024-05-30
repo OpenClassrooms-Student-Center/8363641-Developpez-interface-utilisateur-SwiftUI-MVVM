@@ -7,6 +7,7 @@ struct EPCollaboratifApp: App {
     var body: some Scene {
         WindowGroup {
             HomeScreenView(projectStore: mockStore)
+                .environment(\.locale, Locale(identifier: "fr"))
         }
     }
 }
